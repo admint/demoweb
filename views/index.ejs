@@ -1,0 +1,399 @@
+<% include ./head_html %>
+
+    <body>
+<div id="sb-site">
+ 
+    <% include ./tobmenu %>
+
+
+    
+</div>
+<% include ./slidemenu %>
+        <div id="page-content-wrapper">
+            <div id="page-content">
+                
+                    <div class="container">
+                    
+
+<div id="page-title">
+   
+    <div id="theme-options" class="admin-options hide">
+    <a href="javascript:void(0);" class="btn btn-primary theme-switcher tooltip-button" data-placement="left" title="Color schemes and layout options">
+        <i class="glyph-icon icon-linecons-cog icon-spin"></i>
+    </a>
+    <div id="theme-switcher-wrapper">
+        <div class="scroll-switcher">
+            <h5 class="header">Layout options</h5>
+            <ul class="reset-ul">
+                <li>
+                    <label for="boxed-layout">Boxed layout</label>
+                    <input type="checkbox" data-toggletarget="boxed-layout" id="boxed-layout" class="input-switch-alt">
+                </li>
+                <li>
+                    <label for="fixed-header">Fixed header</label>
+                    <input type="checkbox" data-toggletarget="fixed-header" id="fixed-header" class="input-switch-alt">
+                </li>
+                <li>
+                    <label for="fixed-sidebar">Fixed sidebar</label>
+                    <input type="checkbox" data-toggletarget="fixed-sidebar" id="fixed-sidebar" class="input-switch-alt">
+                </li>
+                <li>
+                    <label for="closed-sidebar">Closed sidebar</label>
+                    <input type="checkbox" data-toggletarget="closed-sidebar" id="closed-sidebar" class="input-switch-alt">
+                </li>
+            </ul>
+            <div class="boxed-bg-wrapper hide">
+                <h5 class="header">
+                    Boxed Page Background
+                    <a class="set-background-style" data-header-bg="" title="Remove all styles" href="javascript:void(0);">Clear</a>
+                </h5>
+                <div class="theme-color-wrapper clearfix">
+                    <h5>Patterns</h5>
+                    <a class="tooltip-button set-background-style pattern-bg-3" data-header-bg="pattern-bg-3" title="Pattern 3" href="javascript:void(0);">Pattern 3</a>
+                    <a class="tooltip-button set-background-style pattern-bg-4" data-header-bg="pattern-bg-4" title="Pattern 4" href="javascript:void(0);">Pattern 4</a>
+                    <a class="tooltip-button set-background-style pattern-bg-5" data-header-bg="pattern-bg-5" title="Pattern 5" href="javascript:void(0);">Pattern 5</a>
+                    <a class="tooltip-button set-background-style pattern-bg-6" data-header-bg="pattern-bg-6" title="Pattern 6" href="javascript:void(0);">Pattern 6</a>
+                    <a class="tooltip-button set-background-style pattern-bg-7" data-header-bg="pattern-bg-7" title="Pattern 7" href="javascript:void(0);">Pattern 7</a>
+                    <a class="tooltip-button set-background-style pattern-bg-8" data-header-bg="pattern-bg-8" title="Pattern 8" href="javascript:void(0);">Pattern 8</a>
+                    <a class="tooltip-button set-background-style pattern-bg-9" data-header-bg="pattern-bg-9" title="Pattern 9" href="javascript:void(0);">Pattern 9</a>
+                    <a class="tooltip-button set-background-style pattern-bg-10" data-header-bg="pattern-bg-10" title="Pattern 10" href="javascript:void(0);">Pattern 10</a>
+
+                    <div class="clear"></div>
+
+                    <h5 class="mrg15T">Solids &amp;Images</h5>
+                    <a class="tooltip-button set-background-style bg-black" data-header-bg="bg-black" title="Black" href="javascript:void(0);">Black</a>
+                    <a class="tooltip-button set-background-style bg-gray mrg10R" data-header-bg="bg-gray" title="Gray" href="javascript:void(0);">Gray</a>
+
+                    <a class="tooltip-button set-background-style full-bg-1" data-header-bg="full-bg-1 fixed-bg" title="Image 1" href="javascript:void(0);">Image 1</a>
+                    <a class="tooltip-button set-background-style full-bg-2" data-header-bg="full-bg-2 fixed-bg" title="Image 2" href="javascript:void(0);">Image 2</a>
+                    <a class="tooltip-button set-background-style full-bg-3" data-header-bg="full-bg-3 fixed-bg" title="Image 3" href="javascript:void(0);">Image 3</a>
+                    <a class="tooltip-button set-background-style full-bg-4" data-header-bg="full-bg-4 fixed-bg" title="Image 4" href="javascript:void(0);">Image 4</a>
+                    <a class="tooltip-button set-background-style full-bg-5" data-header-bg="full-bg-5 fixed-bg" title="Image 5" href="javascript:void(0);">Image 5</a>
+                    <a class="tooltip-button set-background-style full-bg-6" data-header-bg="full-bg-6 fixed-bg" title="Image 6" href="javascript:void(0);">Image 6</a>
+
+                </div>
+            </div>
+            <h5 class="header">
+                Header Style
+                <a class="set-adminheader-style" data-header-bg="bg-gradient-9" title="Remove all styles" href="javascript:void(0);">Clear</a>
+            </h5>
+            <div class="theme-color-wrapper clearfix">
+                <h5>Solids</h5>
+                <a class="tooltip-button set-adminheader-style bg-primary" data-header-bg="bg-primary font-inverse" title="Primary" href="javascript:void(0);">Primary</a>
+                <a class="tooltip-button set-adminheader-style bg-green" data-header-bg="bg-green font-inverse" title="Green" href="javascript:void(0);">Green</a>
+                <a class="tooltip-button set-adminheader-style bg-red" data-header-bg="bg-red font-inverse" title="Red" href="javascript:void(0);">Red</a>
+                <a class="tooltip-button set-adminheader-style bg-blue" data-header-bg="bg-blue font-inverse" title="Blue" href="javascript:void(0);">Blue</a>
+                <a class="tooltip-button set-adminheader-style bg-warning" data-header-bg="bg-warning font-inverse" title="Warning" href="javascript:void(0);">Warning</a>
+                <a class="tooltip-button set-adminheader-style bg-purple" data-header-bg="bg-purple font-inverse" title="Purple" href="javascript:void(0);">Purple</a>
+                <a class="tooltip-button set-adminheader-style bg-black" data-header-bg="bg-black font-inverse" title="Black" href="javascript:void(0);">Black</a>
+
+                <div class="clear"></div>
+
+                <h5 class="mrg15T">Gradients</h5>
+                <a class="tooltip-button set-adminheader-style bg-gradient-1" data-header-bg="bg-gradient-1 font-inverse" title="Gradient 1" href="javascript:void(0);">Gradient 1</a>
+                <a class="tooltip-button set-adminheader-style bg-gradient-2" data-header-bg="bg-gradient-2 font-inverse" title="Gradient 2" href="javascript:void(0);">Gradient 2</a>
+                <a class="tooltip-button set-adminheader-style bg-gradient-3" data-header-bg="bg-gradient-3 font-inverse" title="Gradient 3" href="javascript:void(0);">Gradient 3</a>
+                <a class="tooltip-button set-adminheader-style bg-gradient-4" data-header-bg="bg-gradient-4 font-inverse" title="Gradient 4" href="javascript:void(0);">Gradient 4</a>
+                <a class="tooltip-button set-adminheader-style bg-gradient-5" data-header-bg="bg-gradient-5 font-inverse" title="Gradient 5" href="javascript:void(0);">Gradient 5</a>
+                <a class="tooltip-button set-adminheader-style bg-gradient-6" data-header-bg="bg-gradient-6 font-inverse" title="Gradient 6" href="javascript:void(0);">Gradient 6</a>
+                <a class="tooltip-button set-adminheader-style bg-gradient-7" data-header-bg="bg-gradient-7 font-inverse" title="Gradient 7" href="javascript:void(0);">Gradient 7</a>
+                <a class="tooltip-button set-adminheader-style bg-gradient-8" data-header-bg="bg-gradient-8 font-inverse" title="Gradient 8" href="javascript:void(0);">Gradient 8</a>
+            </div>
+            <h5 class="header">
+                Sidebar Style
+                <a class="set-sidebar-style" data-header-bg="" title="Remove all styles" href="javascript:void(0);">Clear</a>
+            </h5>
+            <div class="theme-color-wrapper clearfix">
+                <h5>Solids</h5>
+                <a class="tooltip-button set-sidebar-style bg-primary" data-header-bg="bg-primary font-inverse" title="Primary" href="javascript:void(0);">Primary</a>
+                <a class="tooltip-button set-sidebar-style bg-green" data-header-bg="bg-green font-inverse" title="Green" href="javascript:void(0);">Green</a>
+                <a class="tooltip-button set-sidebar-style bg-red" data-header-bg="bg-red font-inverse" title="Red" href="javascript:void(0);">Red</a>
+                <a class="tooltip-button set-sidebar-style bg-blue" data-header-bg="bg-blue font-inverse" title="Blue" href="javascript:void(0);">Blue</a>
+                <a class="tooltip-button set-sidebar-style bg-warning" data-header-bg="bg-warning font-inverse" title="Warning" href="javascript:void(0);">Warning</a>
+                <a class="tooltip-button set-sidebar-style bg-purple" data-header-bg="bg-purple font-inverse" title="Purple" href="javascript:void(0);">Purple</a>
+                <a class="tooltip-button set-sidebar-style bg-black" data-header-bg="bg-black font-inverse" title="Black" href="javascript:void(0);">Black</a>
+
+                <div class="clear"></div>
+
+                <h5 class="mrg15T">Gradients</h5>
+                <a class="tooltip-button set-sidebar-style bg-gradient-1" data-header-bg="bg-gradient-1 font-inverse" title="Gradient 1" href="javascript:void(0);">Gradient 1</a>
+                <a class="tooltip-button set-sidebar-style bg-gradient-2" data-header-bg="bg-gradient-2 font-inverse" title="Gradient 2" href="javascript:void(0);">Gradient 2</a>
+                <a class="tooltip-button set-sidebar-style bg-gradient-3" data-header-bg="bg-gradient-3 font-inverse" title="Gradient 3" href="javascript:void(0);">Gradient 3</a>
+                <a class="tooltip-button set-sidebar-style bg-gradient-4" data-header-bg="bg-gradient-4 font-inverse" title="Gradient 4" href="javascript:void(0);">Gradient 4</a>
+                <a class="tooltip-button set-sidebar-style bg-gradient-5" data-header-bg="bg-gradient-5 font-inverse" title="Gradient 5" href="javascript:void(0);">Gradient 5</a>
+                <a class="tooltip-button set-sidebar-style bg-gradient-6" data-header-bg="bg-gradient-6 font-inverse" title="Gradient 6" href="javascript:void(0);">Gradient 6</a>
+                <a class="tooltip-button set-sidebar-style bg-gradient-7" data-header-bg="bg-gradient-7 font-inverse" title="Gradient 7" href="javascript:void(0);">Gradient 7</a>
+                <a class="tooltip-button set-sidebar-style bg-gradient-8" data-header-bg="bg-gradient-8 font-inverse" title="Gradient 8" href="javascript:void(0);">Gradient 8</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Page transitions -->
+
+<script>
+    $(function() { "use strict";
+
+        $('body').addClass('add-transition');
+
+        $('.add-demo-transition').on('click', function(){
+            var transAttr = $(this).attr('data-transition');
+            $('.add-transition').attr('class', 'add-transition');
+            $('.add-transition').addClass(transAttr);
+        });
+    });
+</script>
+<div class="panel">
+        <div class="panel-body">
+            <div class="form-group">
+                    <label class="col-sm-3 control-label" for="searchs">Search For Patient</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="searchs"   placeholder="Enter patient name/ID/Accsion">
+                    </div>
+                </div>
+                
+            </div>	
+            <div class="panel-body">
+                    <h4 class="title-hero font-azure">
+                        Filter By
+                    </h4>
+                    <div class="example-box-wrapper">
+                        <ul class="nav nav-tabs">
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                                    Study Date <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu" style="display: none;">
+                                    <li><a href="#">Today</a></li>
+                                    <li><a href="#">Yester Day</a></li>
+                                    <li><a href="#">Last 7 Day</a></li>
+                                    <li><a href="#">Any Day</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#" data-toggle="modal" data-target="#myModal">Maunaul Select</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                                    Modality <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu" style="display: none;">
+                                    <li><a href="#">All</a></li>
+                                    <% mo.forEach(function(m) { %>
+                                        <li><a href="#"><%=m.mods_in_study%></a></li>
+                                        <% });%>
+                                    </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                                    Hospital Name <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu" style="display: none;">
+                                    <li><a href="#">All</a></li>
+                                    <% hotpital.forEach(function(h) { %>
+                                    <li><a href="#"><%=h.institution%></a></li>
+                                    <% });%>
+                                    </ul>
+                            </li>
+                        </ul>
+                        <div class="modal fade bs-example-modal-sm in" tabindex="1" id="myModal" >
+                                <div class="modal-dialog modal-sm">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                            <h4 class="modal-title">Maunaul Select</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                           <div class="row">
+                                               <div class="col-md-12 mrg15B"><div class="input-group">
+                                                    <span class="input-group-addon">
+                                                        <i class="glyph-icon icon-calendar"></i>
+                                                    </span>
+                                                    <input type="text" class="form-control datepicker" data-provide="datepicker">
+                                                    
+                                                </div></div>
+                                                <div class="col-md-12"><div class="input-group">
+                                                        <span class="input-group-addon">
+                                                            <i class="glyph-icon icon-calendar"></i>
+                                                        </span>
+                                                        <input type="text" class="form-control datepicker" data-provide="datepicker">
+                                                        
+                                                    </div></div>
+                                           </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            
+                                            <button type="button" class="btn btn-primary">Search</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+    </div>	
+   	<!--<link rel="stylesheet" type="text/css" href="../../assets/widgets/datatable/datatable.css">-->
+	<script type="text/javascript" src="public/assets/widgets/datatable/datatable.js"></script>
+	<script type="text/javascript" src="public/assets/widgets/datatable/datatable-bootstrap.js"></script>
+	<script type="text/javascript" src="public/assets/widgets/datatable/datatable-tabletools.js"></script>
+    <style>#myTable_filter{display: none}</style>
+	<script type="text/javascript">
+
+        /* Datatables basic */
+
+        $(document).ready(function() {
+            $('.datepicker').datepicker({
+    format: 'mm/dd/yyyy',
+    
+});
+            var table =      $('#myTable').dataTable({
+                paging: true,
+                searching: true,
+                "columnDefs": [
+                    { "orderable": false, "targets":[1,2,3,4,5,6] },
+                    
+                ],"info": true,
+                "infoCallback": function( settings, start, end, max, total, pre ) {
+                    $("#rnum").html(total);
+                }
+                    });
+                $('#searchs').on( 'keyup', function () {
+                    $('#myTable').dataTable().fnFilter(this.value);
+                } );
+        });
+        </script>
+<div class="panel">
+    <div class="panel-body">
+        <div>
+            <h3 class="title-hero">
+                Search For Patient (<span class="badge bg-blue" id="rnum"></span>)
+            </h3>
+            <div class="example-box-wrapper">
+                <table   style="font-size:12px;" cellpadding="0" cellspacing="0" border="0" class="table table-striped table-bordered" id="myTable">
+					<thead>
+					<tr>
+						<th>Patient Name</th>
+						<th>Patient ID</th>
+					
+						<th>Sex</th>
+						<th>Patient's Most Recent Exam</th>
+						<th>Report</th>
+						<th>Note</th>
+						<th>Key</th>
+					</tr>
+					</thead>
+					<tbody >
+                            
+                            <% result.forEach(function(x) { %>
+							<tr >
+									<td><%=x.pat_name%></td> 
+									<td><%=x.pat_id%></td> 
+									
+									<td><%=x.pat_sex%></td>
+									<td><%= moment(x.study_datetime).format( 'MMM/DD/YYYY HH:MM') %>|<%=x.mods_in_study%>|<%=x.accession_no%>|<%=x.study_desc%>|<%=x.series%></td> 
+									
+									
+									
+									<td class="text-center"><i class="glyph-icon tooltip-button btn btn-xs label-info icon-file-text" title="" data-original-title="Report"></i></td> 
+									<td class="text-center"><i class="glyph-icon tooltip-button btn btn-xs label-info icon-calendar-o" title="" data-original-title="Note"></i></td> 
+									
+									<td class="text-center"><i class="glyph-icon tooltip-button btn btn-xs label-info icon-key" title="" data-original-title="key"></i></td> 
+									
+								  </tr>
+                            <% });%>
+
+					</tbody>
+				</table>
+            
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+                    </div>
+
+                
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- WIDGETS -->
+
+<script type="text/javascript" src="./public/assets/bootstrap/js/bootstrap.js"></script>
+
+<!-- Bootstrap Dropdown -->
+
+<!-- <script type="text/javascript" src="./public/assets/widgets/dropdown/dropdown.js"></script> -->
+
+<!-- Bootstrap Tooltip -->
+
+<!-- <script type="text/javascript" src="./public/assets/widgets/tooltip/tooltip.js"></script> -->
+
+<!-- Bootstrap Popover -->
+
+<!-- <script type="text/javascript" src="./public/assets/widgets/popover/popover.js"></script> -->
+
+<!-- Bootstrap Progress Bar -->
+
+<script type="text/javascript" src="./public/assets/widgets/progressbar/progressbar.js"></script>
+
+<!-- Bootstrap Buttons -->
+
+<!-- <script type="text/javascript" src="./public/assets/widgets/button/button.js"></script> -->
+
+<!-- Bootstrap Collapse -->
+
+<!-- <script type="text/javascript" src="./public/assets/widgets/collapse/collapse.js"></script> -->
+
+<!-- Superclick -->
+
+<script type="text/javascript" src="./public/assets/widgets/superclick/superclick.js"></script>
+
+<!-- Input switch alternate -->
+
+<script type="text/javascript" src="./public/assets/widgets/input-switch/inputswitch-alt.js"></script>
+
+<!-- Slim scroll -->
+
+<script type="text/javascript" src="./public/assets/widgets/slimscroll/slimscroll.js"></script>
+
+<!-- Slidebars -->
+
+<script type="text/javascript" src="./public/assets/widgets/slidebars/slidebars.js"></script>
+<script type="text/javascript" src="./public/assets/widgets/slidebars/slidebars-demo.js"></script>
+
+<!-- PieGage -->
+
+<script type="text/javascript" src="./public/assets/widgets/charts/piegage/piegage.js"></script>
+<script type="text/javascript" src="./public/assets/widgets/charts/piegage/piegage-demo.js"></script>
+
+<!-- Screenfull -->
+
+<script type="text/javascript" src="./public/assets/widgets/screenfull/screenfull.js"></script>
+
+<!-- Content box -->
+
+<script type="text/javascript" src="./public/assets/widgets/content-box/contentbox.js"></script>
+
+<!-- Overlay -->
+
+<script type="text/javascript" src="./public/assets/widgets/overlay/overlay.js"></script>
+
+<!-- Widgets init for demo -->
+
+<script type="text/javascript" src="./public/assets/js-init/widgets-init.js"></script>
+
+<!-- Theme layout -->
+
+<script type="text/javascript" src="./public/assets/themes/admin/layout.js"></script>
+
+<!-- Theme switcher -->
+
+<script type="text/javascript" src="./public/assets/widgets/theme-switcher/themeswitcher.js"></script>
+
+
+</body>
+
+<!-- Mirrored from agileui.com/demo/monarch/demo/admin-template/page-transitions.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Sep 2017 07:44:23 GMT -->
+</html>
